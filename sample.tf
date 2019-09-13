@@ -2,7 +2,7 @@ terraform {
 
   backend "s3" {
 
-    bucket = "terraform-bucket-alex"
+    bucket = "pallacharla"
 
     key    = "terraform.tfstate"
 

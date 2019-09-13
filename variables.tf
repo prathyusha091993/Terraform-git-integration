@@ -20,7 +20,7 @@ variable "instance_type" {
 
   description = "AWS instance type"
 
-  default     = "t3.small"
+  default     = "t3.micro"
 
 }
 
