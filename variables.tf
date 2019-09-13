@@ -1,4 +1,4 @@
-variable "count" {
+variable "ount" {
 
   default = 1
 
@@ -18,22 +18,12 @@ variable "key_name" {
 
 variable "instance_type" {
 
+  ami         = "ami-2757f631"
   description = "AWS instance type"
-
   default     = "t3.micro"
 
 }
 
 
-
-variable "ami" {
-
-  description = "Base AMI to launch the instances"
-
-
-
-  # Bitnami NGINX AMI
-
-  default = "ami-021acbdb89706aa89"
 
 
